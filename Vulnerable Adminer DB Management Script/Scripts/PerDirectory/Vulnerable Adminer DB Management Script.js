@@ -34,14 +34,14 @@ filenames.forEach(function(item, key){
 
 function analyze(context, response) {    
     // Aim of this script is to find vulnerable Adminer DB management script on the target.
-	// Adminer up to 4.6.3 is vulnerable to sensitive file disclosure through MySQL LOAD LOCAL DATA function.
+    // Adminer up to 4.6.3 is vulnerable to sensitive file disclosure through MySQL LOAD LOCAL DATA function.
     // Resarch: https://medium.com/bugbountywriteup/adminer-script-results-to-pwning-server-private-bug-bounty-program-fe6d8a43fe6f
     var adminerRegEx = />Adminer<\/a> <span class="version">(.*)<\/span>/
     var adminerVersion = response.body.match(adminerRegEx);
     if(adminerVersion) {		
 		if(vulnerableVersions.indexOf(adminerVersion[1]) >= 0) {			
 			var vulnerability = new Vulnerability("446bb38e-92e8-43ab-a55d-dc2f7ba4511b")
-		    vulnerability.CustomFields.Add("Adminer Version", adminerVersion[1]);
+		        vulnerability.CustomFields.Add("Adminer Version", adminerVersion[1]);
 			return vulnerability;
 		}		
 	} 
