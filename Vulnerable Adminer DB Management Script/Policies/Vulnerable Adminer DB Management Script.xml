@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScanPolicy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="26" Id="efbc1c01-113d-4243-98ca-81760d836e69">
+  <Engines>
+    <Engine Id="c022079f-a6ce-4757-8a57-5067a9219337" Version="23">
+      <Settings />
+      <Patterns>
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc10" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc12" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc11" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc13" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc14" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc16" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc15" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc17" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc18" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc20" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc19" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc21" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc22" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc24" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc23" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc25" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc26" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc28" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc27" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc29" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc30" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc32" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc31" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc33" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc34" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc36" />
+        <Pattern Id="8d07afdc-8c09-4063-a7a3-6cf30e92cc35" />
+      </Patterns>
+    </Engine>
+  </Engines>
+  <IsAssistantGenerated>false</IsAssistantGenerated>
+  <OptimizerOptions>
+    <DatabaseServer>All</DatabaseServer>
+    <DomParserPreset>None</DomParserPreset>
+  </OptimizerOptions>
+  <ResourceModifiers />
+  <Settings>
+    <AutoCompleteEnabledTextInputValues>
+      <InputValue Value="CC" />
+      <InputValue Value="*credit*" />
+      <InputValue Value="*login*" />
+      <InputValue Value="*logon*" />
+      <InputValue Value="*sign*" />
+      <InputValue Value="*CVV*" />
+      <InputValue Value="*pass*" />
+      <InputValue Value="*user*" />
+      <InputValue Value="*account*" />
+      <InputValue Value="pwd" />
+    </AutoCompleteEnabledTextInputValues>
+    <CsrfCaptchaIndicators>
+      <string>*captcha*</string>
+      <string>spamcheck</string>
+    </CsrfCaptchaIndicators>
+    <CsrfLoginFormValues>
+      <string>*login*</string>
+      <string>log in</string>
+      <string>*logon*</string>
+      <string>*signin*</string>
+    </CsrfLoginFormValues>
+    <CsrfUserNameInputs>
+      <string>user</string>
+      <string>username</string>
+      <string>*_username</string>
+      <string>*mail</string>
+      <string>uid</string>
+      <string>*uname</string>
+      <string>login*</string>
+    </CsrfUserNameInputs>
+    <CustomHeaders>
+      <CustomHeader AttackMode="None" Enabled="true" Name="X-Scanner" Value="Netsparker" />
+      <CustomHeader AttackMode="None" Enabled="true" Name="Accept" Value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8" />
+      <CustomHeader AttackMode="None" Enabled="true" Name="Accept-Language" Value="en-us,en;q=0.5" />
+      <CustomHeader AttackMode="None" Enabled="true" Name="Cache-Control" Value="no-cache" />
+      <CustomHeader AttackMode="None" Enabled="false" Name="Accept-Charset" Value="" />
+    </CustomHeaders>
+    <CustomUserAgent Name="Default: Chrome" Value="Mozilla/5.0 (Windows NT 10.0; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" />
+    <Extensions>
+      <ExtensionOption Extension="7z" />
+      <ExtensionOption Extension="a3c" />
+      <ExtensionOption Extension="ace" />
+      <ExtensionOption Extension="aif" />
+      <ExtensionOption Extension="aifc" />
+      <ExtensionOption Extension="aiff" />
+      <ExtensionOption Extension="arj" />
+      <ExtensionOption Extension="asf" />
+      <ExtensionOption Extension="asx" />
+      <ExtensionOption Extension="au" />
+      <ExtensionOption Extension="avi" />
+      <ExtensionOption Extension="bmp" />
+      <ExtensionOption Extension="cab" />
+      <ExtensionOption Extension="divx" />
+      <ExtensionOption Extension="djv" />
+      <ExtensionOption Extension="djvu" />
+      <ExtensionOption Extension="doc" />
+      <ExtensionOption Extension="dot" />
+      <ExtensionOption Extension="dwg" />
+      <ExtensionOption Extension="eps" />
+      <ExtensionOption Extension="es" />
+      <ExtensionOption Extension="esl" />
+      <ExtensionOption Extension="fif" />
+      <ExtensionOption Extension="fla" />
+      <ExtensionOption Extension="flv" />
+      <ExtensionOption Extension="fvi" />
+      <ExtensionOption Extension="gif" />
+      <ExtensionOption Extension="gz" />
+      <ExtensionOption Extension="hqx" />
+      <ExtensionOption Extension="ice" />
+      <ExtensionOption Extension="ico" />
+      <ExtensionOption Extension="ief" />
+      <ExtensionOption Extension="ifs" />
+      <ExtensionOption Extension="iw4" />
+      <ExtensionOption Extension="iw44" />
+      <ExtensionOption Extension="jpe" />
+      <ExtensionOption Extension="jpeg" />
+      <ExtensionOption Extension="jpg" />
+      <ExtensionOption Extension="map" />
+      <ExtensionOption Extension="kar" />
+      <ExtensionOption Extension="mid" />
+      <ExtensionOption Extension="midi" />
+      <ExtensionOption Extension="mov" />
+      <ExtensionOption Extension="movie" />
+      <ExtensionOption Extension="mp" />
+      <ExtensionOption Extension="mp2" />
+      <ExtensionOption Extension="mp3" />
+      <ExtensionOption Extension="mp4" />
+      <ExtensionOption Extension="mpeg" />
+      <ExtensionOption Extension="mpeg2" />
+      <ExtensionOption Extension="mpga" />
+      <ExtensionOption Extension="mpp" />
+      <ExtensionOption Extension="mpt" />
+      <ExtensionOption Extension="msi" />
+      <ExtensionOption Extension="pac" />
+      <ExtensionOption Extension="pae" />
+      <ExtensionOption Extension="pbm" />
+      <ExtensionOption Extension="pcx" />
+      <ExtensionOption Extension="pdf" />
+      <ExtensionOption Extension="pgm" />
+      <ExtensionOption Extension="png" />
+      <ExtensionOption Extension="pnm" />
+      <ExtensionOption Extension="ppm" />
+      <ExtensionOption Extension="ppt" />
+      <ExtensionOption Extension="ps" />
+      <ExtensionOption Extension="psd" />
+      <ExtensionOption Extension="qt" />
+      <ExtensionOption Extension="ra" />
+      <ExtensionOption Extension="ram" />
+      <ExtensionOption Extension="rar" />
+      <ExtensionOption Extension="ras" />
+      <ExtensionOption Extension="rgb" />
+      <ExtensionOption Extension="rmf" />
+      <ExtensionOption Extension="rpm" />
+      <ExtensionOption Extension="rtf" />
+      <ExtensionOption Extension="sit" />
+      <ExtensionOption Extension="smi" />
+      <ExtensionOption Extension="snd" />
+      <ExtensionOption Extension="svg" />
+      <ExtensionOption Extension="svf" />
+      <ExtensionOption Extension="swf" />
+      <ExtensionOption Extension="tar" />
+      <ExtensionOption Extension="tgz" />
+      <ExtensionOption Extension="tif" />
+      <ExtensionOption Extension="tiff" />
+      <ExtensionOption Extension="uff" />
+      <ExtensionOption Extension="vis" />
+      <ExtensionOption Extension="viv" />
+      <ExtensionOption Extension="vivo" />
+      <ExtensionOption Extension="vox" />
+      <ExtensionOption Extension="wav" />
+      <ExtensionOption Extension="wbmp" />
+      <ExtensionOption Extension="wi" />
+      <ExtensionOption Extension="wma" />
+      <ExtensionOption Extension="wmv" />
+      <ExtensionOption Extension="xbm" />
+      <ExtensionOption Extension="xls" />
+      <ExtensionOption Extension="xpm" />
+      <ExtensionOption Extension="xwd" />
+      <ExtensionOption Extension="zip" />
+      <ExtensionOption CrawlOption="Crawl" Extension="js" />
+      <ExtensionOption CrawlOption="Crawl" Extension="css" />
+    </Extensions>
+    <FormValues>
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Email" Ordinal="0" Pattern="mail" Type="email" Value="netsparker@example.com" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Name" Ordinal="0" Pattern="name|login|user|nick|accounts|family" Value="Smith" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Date" Ordinal="0" Pattern="date" Type="date" Value="01/01/2011" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Birth" Ordinal="0" Pattern="birth" Value="01/01/1987" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Before" Ordinal="0" Pattern="before" Value="01/01/2030" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="After" Ordinal="0" Pattern="after" Value="01/01/1950" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="City" Ordinal="0" Pattern="city" Value="Chicago" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="State" Ordinal="0" Pattern="state" Value="IL" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="County" Ordinal="0" Pattern="county" Value="MIDDX" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Postal Code" Ordinal="0" Pattern="postal" Value="60612" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Telephone" Ordinal="0" Pattern="tel" Type="tel" Value="5234534558" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="SSN" Ordinal="0" Pattern="ssn" Value="987-65-4320" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="IP" Ordinal="0" Pattern="ip" Value="208.100.0.117" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="URL" Ordinal="0" Pattern="url|website|site|domain|web|uri|link" Type="url" Value="http://www.example.com" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Credit Card" Ordinal="0" Pattern="cc|credit_?card|card" Value="4916613944329494" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="CVV2" Ordinal="0" Pattern="\bcvv\b" Value="586" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Password" Ordinal="0" Type="password" Value="N3tsp@rker-" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Time" Ordinal="0" Type="time" Value="00:00:00" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Datetime" Ordinal="0" Type="datetime" Value="2011-01-01T00:00:00Z" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Local Datetime" Ordinal="0" Type="datetime-local" Value="2011-01-01T00:00:00" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Month" Ordinal="0" Type="month" Value="2011-01" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Week" Ordinal="0" Type="week" Value="2011-W01" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="Color" Ordinal="0" Type="color" Value="#ffffff" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="TCKN" Ordinal="0" Pattern="tc[kn]?" Value="10000000146" />
+      <FormValue MatchTarget="1" Force="false" Match="RegEx" Name="#DEFAULT#" Ordinal="0" Pattern="" Value="3" />
+    </FormValues>
+    <IgnoreContentTypes>
+      <InputValue Value="application/pdf" />
+      <InputValue Value="application/x-7z-compressed" />
+      <InputValue Value="application/x-bzip2" />
+      <InputValue Value="application/x-compress" />
+      <InputValue Value="application/x-gtar" />
+      <InputValue Value="application/x-gzip" />
+      <InputValue Value="application/x-lzip" />
+      <InputValue Value="application/x-lzma" />
+      <InputValue Value="application/x-rar-compressed" />
+      <InputValue Value="application/x-tar" />
+      <InputValue Value="application/zip" />
+      <InputValue Value="image/bmp" />
+      <InputValue Value="image/jpeg" />
+      <InputValue Value="image/png" />
+      <InputValue Value="video/mpeg" />
+    </IgnoreContentTypes>
+    <IgnoredEmailPatterns>
+      <EmailPattern Value="*@example.com" />
+      <EmailPattern Value="*@*.example.com" />
+    </IgnoredEmailPatterns>
+    <IgnoreParameters>
+      <IgnoreParameter Name="ASP.NET VIEWSTATE" Type="POST" Pattern="__VIEWSTATE" />
+      <IgnoreParameter Name="ASP.NET VIEWSTATE GET" Type="GET" Pattern="__VIEWSTATE" />
+      <IgnoreParameter Name="ASP.NET __EVENTVALIDATION" Type="POST" Pattern="__EVENTVALIDATION" />
+      <IgnoreParameter Name="ASP.NET __EVENTVALIDATION GET" Type="GET" Pattern="__EVENTVALIDATION" />
+      <IgnoreParameter Name="ASP.NET __ASYNCPOST" Type="POST" Pattern="__ASYNCPOST" />
+      <IgnoreParameter Name="ASP.NET __EVENTTARGET" Type="POST" Pattern="__EVENTTARGET" />
+      <IgnoreParameter Name="ASP.NET __EVENTTARGET GET" Type="GET" Pattern="__EVENTTARGET" />
+      <IgnoreParameter Name="ASP.NET __EVENTARGUMENT" Type="POST" Pattern="__EVENTARGUMENT" />
+      <IgnoreParameter Name="ASP.NET __EVENTARGUMENT GET" Type="GET" Pattern="__EVENTARGUMENT" />
+      <IgnoreParameter Name="ASP.NET VIEWSTATE ENC GET" Type="GET" Pattern="__VIEWSTATEENCRYPTED" />
+      <IgnoreParameter Name="ASP.NET VIEWSTATE ENC POST" Type="POST" Pattern="__VIEWSTATEENCRYPTED" />
+      <IgnoreParameter Name="ASP.NET VIEWSTATE GENERATOR" Type="POST" Pattern="__VIEWSTATEGENERATOR" />
+      <IgnoreParameter Name="ASP.NET VIEWSTATE GENERATOR GET" Type="GET" Pattern="__VIEWSTATEGENERATOR" />
+      <IgnoreParameter Name="ASP.NET COMPRESSED VIEWSTATE" Type="POST" Pattern="__COMPRESSEDVIEWSTATE" />
+      <IgnoreParameter Name="ASP.NET COMPRESSED VIEWSTATE GET" Type="GET" Pattern="__COMPRESSEDVIEWSTATE" />
+      <IgnoreParameter Name="ASP.NET __SCROLLPOSITIONX" Type="POST" Pattern="__SCROLLPOSITIONX" />
+      <IgnoreParameter Name="ASP.NET __SCROLLPOSITIONX GET" Type="GET" Pattern="__SCROLLPOSITIONX" />
+      <IgnoreParameter Name="ASP.NET __SCROLLPOSITIONY" Type="POST" Pattern="__SCROLLPOSITIONY" />
+      <IgnoreParameter Name="ASP.NET __SCROLLPOSITIONY GET" Type="GET" Pattern="__SCROLLPOSITIONY" />
+      <IgnoreParameter Name="ASP.NET __LASTFOCUS" Type="POST" Pattern="__LASTFOCUS" />
+      <IgnoreParameter Name="ASP.NET __LASTFOCUS GET" Type="GET" Pattern="__LASTFOCUS" />
+      <IgnoreParameter Name="ASP.NET __PREVIOUSPAGE" Type="POST" Pattern="__PREVIOUSPAGE" />
+      <IgnoreParameter Name="ASP.NET __PREVIOUSPAGE GET" Type="GET" Pattern="__PREVIOUSPAGE" />
+      <IgnoreParameter Name="ASP.NET __ASYNCPOST" Type="POST" Pattern="__ASYNCPOST" />
+      <IgnoreParameter Name="ASP.NET __ASYNCPOST GET" Type="GET" Pattern="__ASYNCPOST" />
+      <IgnoreParameter Name="Java Faces ViewState" Type="POST" Pattern="javax.faces.ViewState" />
+      <IgnoreParameter Name="Java Faces ViewState GET" Type="GET" Pattern="javax.faces.ViewState" />
+      <IgnoreParameter Name="Struts CSRF Nonce" Type="POST" Pattern="org.apache.struts.taglib.html.TOKEN" />
+      <IgnoreParameter Name="Struts CSRF Nonce GET" Type="GET" Pattern="org.apache.struts.taglib.html.TOKEN" />
+      <IgnoreParameter Name="JAVA Session ID" Type="GET" Pattern="jsessionid" />
+      <IgnoreParameter Name="PHP Session ID" Type="GET" Pattern="PHPSESSID" />
+      <IgnoreParameter Name="PHP Session ID (COOKIE)" Type="COOKIE" Pattern="PHPSESSID" />
+      <IgnoreParameter Name="JAVA Session ID (COOKIE)" Type="COOKIE" Pattern="jsessionid" />
+      <IgnoreParameter Name="ASP Session ID (COOKIE)" Type="COOKIE" Pattern="ASPSESSIONID*" />
+      <IgnoreParameter Name="ASP.NET Session ID (COOKIE)" Type="COOKIE" Pattern="ASP.NET_SessionId" />
+    </IgnoreParameters>
+    <NonCsrfFormValues>
+      <string>*search*</string>
+      <string>*query*</string>
+    </NonCsrfFormValues>
+    <NonCsrfInputValues>
+      <string>*search*</string>
+      <string>*query*</string>
+      <string>*keyword*</string>
+      <string>q</string>
+    </NonCsrfInputValues>
+    <SecurityProtocol>Ssl3 Tls Tls11 Tls12</SecurityProtocol>
+    <SensitiveKeywords>
+      <SensitiveKeyword Pattern="\b(?&gt;admin(?:istrator)?)\b" />
+      <SensitiveKeyword Pattern="\b(?&gt;pass(?:w(?:or)?d)?)\b" />
+      <SensitiveKeyword Pattern="\b(?&gt;user(?:name)?)\b" />
+      <SensitiveKeyword Pattern="\b(?:login)\b" />
+      <SensitiveKeyword Pattern="\b(?:secret)\b" />
+      <SensitiveKeyword Pattern="\b(?:private)\b" />
+      <SensitiveKeyword Pattern="\b(?:secure)\b" />
+      <SensitiveKeyword Pattern="\b(?:protected)\b" />
+      <SensitiveKeyword Pattern="\b(?:backup)\b" />
+      <SensitiveKeyword Pattern="\b(?:webadmin)\b" />
+      <SensitiveKeyword Pattern="\b(?:manager?)\b" />
+      <SensitiveKeyword Pattern="\b(?:upload)\b" />
+      <SensitiveKeyword Pattern="\b(?:file(?:admin|manager))\b" />
+      <SensitiveKeyword Pattern="\b(?:account)\b" />
+      <SensitiveKeyword Pattern="\b(?:uid)\b" />
+      <SensitiveKeyword Pattern="\b(?:uname)\b" />
+      <SensitiveKeyword Pattern="\b(?:usr)\b" />
+      <SensitiveKeyword Pattern="\b(?:pwd)\b" />
+      <SensitiveKeyword Pattern="\b(?:todo)\b" />
+      <SensitiveKeyword Pattern="\b(?:hack)\b" />
+      <SensitiveKeyword Pattern="\b(?:xxx)\b" />
+      <SensitiveKeyword Pattern="\b(?:fix(?:me)?)\b" />
+      <SensitiveKeyword Pattern="\b(?:credentials?)\b" />
+      <SensitiveKeyword Pattern="\b(?:debug)\b" />
+      <SensitiveKeyword Pattern="\b(?:root)\b" />
+      <SensitiveKeyword Pattern="\b(?:bug)\b" />
+      <SensitiveKeyword Pattern="\b(?:problem)\b" />
+      <SensitiveKeyword Pattern="\b(?:bad)\b" />
+      <SensitiveKeyword Pattern="\b(?:hope)\b" />
+      <SensitiveKeyword Pattern="\b(?:overflow)\b" />
+      <SensitiveKeyword Pattern="\b(?:crash)\b" />
+      <SensitiveKeyword Pattern="\b(?:inject)\b" />
+      <SensitiveKeyword Pattern="\b(?:xss)\b" />
+      <SensitiveKeyword Pattern="\b(?:trust)\b" />
+    </SensitiveKeywords>
+  </Settings>
+</ScanPolicy>
