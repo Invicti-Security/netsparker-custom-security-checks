@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScanProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdditionalWebsites />
+  <Scope>EnteredPathAndBelowScope</Scope>
+  <ClientCertificateAuthenticationSettings Enabled="false" />
+  <Cookies />
+  <DisallowedHttpMethods />
+  <ExcludedLinks>
+    <string>(log|sign)\-?(out|off)</string>
+    <string>exit</string>
+    <string>endsession</string>
+    <string>gtm\.js</string>
+    <string>WebResource\.axd</string>
+    <string>ScriptResource\.axd</string>
+  </ExcludedLinks>
+  <ExcludeLinks>true</ExcludeLinks>
+  <FormAuthenticationSettings LoginFormUrl="" Enabled="false">
+    <CustomScripts />
+    <Personas />
+    <DetectBearerToken>true</DetectBearerToken>
+    <OverrideTargetUrlWithAuthenticatedPage>false</OverrideTargetUrlWithAuthenticatedPage>
+  </FormAuthenticationSettings>
+  <HeaderAuthenticationSettings Enabled="false">
+    <Headers />
+  </HeaderAuthenticationSettings>
+  <ImportedLinks />
+  <ManualAuthenticationSettings Enabled="false" DisableLogoutDetection="true">
+    <AuthenticationLinks />
+  </ManualAuthenticationSettings>
+  <NtlmBasicDigestAuthenticationSettings AlwaysAuthenticateNoChallenge="true" Enabled="false">
+    <AuthenticationMethods />
+  </NtlmBasicDigestAuthenticationSettings>
+  <OAuth2AuthorizationProfileSettings>
+    <Enabled>false</Enabled>
+  </OAuth2AuthorizationProfileSettings>
+  <ParallelAttackerEnabled>false</ParallelAttackerEnabled>
+  <PolicyId>91914789-ec4b-451a-bfa0-79e9bcb1983e</PolicyId>
+  <PreRequestScript />
+  <PreRequestScriptEnabled>false</PreRequestScriptEnabled>
+  <ReportPolicyId>07d735b7-e8d8-43d5-9f3b-0b9b36b0ca31</ReportPolicyId>
+  <ScanMode>CrawlAndWait</ScanMode>
+  <TargetUrl>http://php.testsparker.com/</TargetUrl>
+  <UrlRewriteAnalyzableExtensions>
+    <string>htm</string>
+    <string>html</string>
+  </UrlRewriteAnalyzableExtensions>
+  <UrlRewriteBlockSeparators>
+    <char>47</char>
+    <char>36</char>
+    <char>46</char>
+    <char>44</char>
+    <char>59</char>
+    <char>124</char>
+    <char>58</char>
+  </UrlRewriteBlockSeparators>
+  <UsedInSchedule>false</UsedInSchedule>
+</ScanProfile>
