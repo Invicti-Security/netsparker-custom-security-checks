@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScanProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AdditionalWebsites />
+  <Scope>EnteredPathAndBelowScope</Scope>
+  <ClientCertificateAuthenticationSettings Enabled="false" />
+  <Cookies />
+  <DisallowedHttpMethods />
+  <ExcludedLinks>
+    <string>(log|sign)\-?(out|off)</string>
+    <string>exit</string>
+    <string>endsession</string>
+    <string>gtm\.js</string>
+    <string>WebResource\.axd</string>
+    <string>ScriptResource\.axd</string>
+  </ExcludedLinks>
+  <ExcludeLinks>true</ExcludeLinks>
+  <FormAuthenticationSettings LoginFormUrl="" Enabled="false">
+    <CustomScripts />
+    <Personas />
+    <DetectBearerToken>true</DetectBearerToken>
+    <OverrideTargetUrlWithAuthenticatedPage>false</OverrideTargetUrlWithAuthenticatedPage>
+  </FormAuthenticationSettings>
+  <HeaderAuthenticationSettings Enabled="false">
+    <Headers />
+  </HeaderAuthenticationSettings>
+  <ImportedLinks />
+  <ManualAuthenticationSettings Enabled="false" DisableLogoutDetection="true">
+    <AuthenticationLinks />
+  </ManualAuthenticationSettings>
+  <NtlmBasicDigestAuthenticationSettings Enabled="false">
+    <AuthenticationMethods />
+  </NtlmBasicDigestAuthenticationSettings>
+  <OAuth2AuthorizationProfileSettings>
+    <Enabled>false</Enabled>
+  </OAuth2AuthorizationProfileSettings>
+  <ParallelAttackerEnabled>true</ParallelAttackerEnabled>
+  <PolicyId>40ec32d8-2ea7-46b5-b08e-a6e73d8f7424</PolicyId>
+  <PreRequestScript />
+  <PreRequestScriptEnabled>false</PreRequestScriptEnabled>
+  <ReportPolicyId>1cfefb3e-f17f-455e-a6c7-ea2f07d97777</ReportPolicyId>
+  <ScanMode>Normal</ScanMode>
+  <TargetUrl>http://yourtarget/oei/</TargetUrl>
+  <UrlRewriteAnalyzableExtensions>
+    <string>htm</string>
+    <string>html</string>
+  </UrlRewriteAnalyzableExtensions>
+  <UrlRewriteBlockSeparators>
+    <char>47</char>
+    <char>36</char>
+    <char>46</char>
+    <char>44</char>
+    <char>59</char>
+    <char>124</char>
+    <char>58</char>
+  </UrlRewriteBlockSeparators>
+  <UsedInSchedule>false</UsedInSchedule>
+</ScanProfile>
