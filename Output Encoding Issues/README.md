@@ -1,4 +1,4 @@
-Author: Ziyahan Albeniz - ziyahan@netsparker.com
+Author: Ziyahan Albeniz - ziyahan@netsparker.com / Dogan Aydos - daydos@netsparker.com
 
 This Custom Security Checks is written to check if the target web site reflects input that sent by attacker. This character set is important because it has some special ones that has special meaning in HTML and Javascript context.
 
