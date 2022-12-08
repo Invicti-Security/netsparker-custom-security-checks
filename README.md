@@ -185,7 +185,7 @@ vulnerability.CustomFields.Add('Foo', 'Bar');
 
 ## Contributing
 
-If you're going to contribute code, please read our [Contributing Guide](https://github.com/netsparker/netsparker-custom-security-checks/blob/master/CONTRIBUTING.md).
+If you're going to contribute code, please read our [Contributing Guide](https://github.com/Invicti-Security/netsparker-custom-security-checks/blob/master/CONTRIBUTING.md).
 
 
 ## Questions
@@ -196,6 +196,6 @@ If you have a problem with writing scripts you can submit an issue through GitHu
 ## License
 
 
-This project is licensed under the MIT License - see [the LICENSE.md file](https://github.com/netsparker/netsparker-custom-security-checks/blob/master/LICENSE) for details.
+This project is licensed under the MIT License - see [the LICENSE.md file](https://github.com/Invicti-Security/netsparker-custom-security-checks/blob/master/LICENSE) for details.
 
 
