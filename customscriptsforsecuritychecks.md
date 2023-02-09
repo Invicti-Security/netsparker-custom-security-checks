@@ -19,3 +19,7 @@ Custom security checks in Invicti fall into four categories, depending on the sc
 * Singular security check
 * Per-directory security check
 
+You can run custom security checks in Invicti Enterprise and Invicti Standard. For further information, see the following topics:
+* Invicti Enterprise on-premises
+* Invicti Enterprise on-demand
+* Invicti Standard
