@@ -33,7 +33,7 @@ Here is a sample script:
 ```javascript
 var attacks = [
   {
-    id: '8613F6DB-9AD2-4E45-9B8F-308C810FF7DB',
+    id: 'a GUID number',
     name: 'My New Pattern',
     attack: '%27AND+1%3dcast(0x5f21403264696c656d6d61+as+varchar(8000))+or+%271%27%3d%27',
     attackUsage: AttackUsages.Json + AttackUsages.Xml
@@ -70,6 +70,13 @@ Passive security checks do not issue any extra HTTP requests during scans. For e
 Here is a sample script:
 
 ```javascript
+var attacks = [
+  {
+    id: 'a GUID number',
+    name: 'My New Pattern',
+  }
+];
+
 function analyze(context, response) {
    if (response.Body.indexOf('java.io.FileNotFoundException:') > -1) {
      return new Vulnerability(VulnerabilityType.ProgrammingErrorMessages);
@@ -88,6 +95,13 @@ These checks are executed once for each scan. You are able to analyze the respon
 
 Here is a sample script:
 ```javascript
+var attacks = [
+  {
+    id: 'a GUID number',
+    name: 'My New Pattern',
+  }
+];
+
 function analyze(response) {
    if (response.Headers['Server'].indexOf('Apache') > -1) {
      return new Vulnerability(VulnerabilityType.ApacheIdentified);
