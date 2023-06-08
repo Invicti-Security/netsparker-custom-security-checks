@@ -253,7 +253,7 @@ Performs an HTTP request to a URL where you can specify the raw HTTP request con
 
 
 ```js
-var body = "{ \"foo\" : { \"bar\" : 42 }";
+var body = "{ \"foo\" : { \"bar\" : 42 } }";
 var length = body.length;
 
 var raw =  `POST /some/endpoint HTTP/1.1
