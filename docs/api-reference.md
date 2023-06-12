@@ -6,7 +6,7 @@ This represents an HTTP request. You can use this class to send HTTP requests to
 
 ### Create a Request Instance
 
-The following example shows how to create a new instance of a ```Request``` class and use it:
+The following example shows how to create a new instance of a ```Request``` class and use it:
 
 ```js
 var request = new Request('https://example.com/');
@@ -20,10 +20,10 @@ var response = invicti.request(request);
 |------|------|-------------|
 | Aborted | [```Boolean```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | Gets a value indicating whether this Request is aborted. *(Read-only)* |
 | Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the body of the HTTP request. |
-| Headers | Dictionary | Gets a dictionary of HTTP request headers where you can add/update headers. |
-| Method | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the HTTP method (verb) used in the request (e.g. GET, POST, PUT, DELETE). |
-| Parameters | List | Gets a list of ```Parameter``` instances which are sent as part of the request. (e.g. Querystring, Post) |
-| Uri | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the URI to perform the request to. |
+| Headers | Dictionary | Gets a dictionary of HTTP request headers where you can add/update headers. |
+| Method | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the HTTP method (verb) used in the request (e.g. GET, POST, PUT, DELETE). |
+| Parameters | List | Gets a list of ```Parameter``` instances which are sent as part of the request. (e.g. Querystring, Post) |
+| Uri |[```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the URI to perform the request to. |
 
 ### Request Class Methods
 
@@ -65,12 +65,12 @@ This represents an HTTP response. You can use the class to retrieve the response
 | Name | Type | Description |
 |------|------|-------------|
 | Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the body of the HTTP response. *(Read-only)* |
-| Headers | Dictionary | Gets a dictionary of HTTP response headers. |
-| RawResponse | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the raw HTTP response which consists of headers and body. *(Read-only)* |
-| ResponseTime | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the elapsed response time in milliseconds. *(Read-only)* |
-| StatusCode | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the HTTP response status code. (e.g. 200, 404) *(Read-only)* |
-| StatusDescription |[```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the HTTP response status description. (e.g. "OK", "Not Found") *(Read-only)* |
-| Uri | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the address that request is made to. *(Read-only)* |
+| Headers | Dictionary | Gets a dictionary of HTTP response headers. |
+| RawResponse | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the raw HTTP response which consists of headers and body. *(Read-only)* |
+| ResponseTime | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the elapsed response time in milliseconds. *(Read-only)* |
+| StatusCode | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the HTTP response status code. (e.g. 200, 404) *(Read-only)* |
+| StatusDescription |[```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the HTTP response status description. (e.g. "OK", "Not Found") *(Read-only)* |
+| Uri | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the address that request is made to. *(Read-only)* |
 
 ---
 
@@ -96,7 +96,7 @@ This represents a HTTP request parameter and provides properties and methods for
 | ```ParameterType.Post``` | Represents a request body (POST) parameter. |
 | ```ParameterType.FullQueryString``` | Represents a full query String treated as one parameter. (e.g. /?full_query_string) |
 
-The following example shows how to create a new instance of a ```Parameter``` class and use it:
+The following example shows how to create a new instance of a ```Parameter``` class and use it:
 
 ```js
 var request = new Request('https://example.com/');
@@ -111,9 +111,9 @@ var response = invicti.request(request);
 
 | Name | Type | Description |
 |------|------|-------------|
-| Name | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the name of the parameter. *(Read-only)* |
-| Value | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the value of the parameter. *(Read-only)* |
-| Type | ```ParameterType``` | Gets the type of the parameter. (See list above) *(Read-only)* |
+| Name | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the name of the parameter. *(Read-only)* |
+| Value | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the value of the parameter. *(Read-only)* |
+| Type | ```ParameterType``` | Gets the type of the parameter. (See list above) *(Read-only)* |
 
 ---
 
@@ -194,7 +194,7 @@ function analyze(context, response) {
 |------|------|-------------|
 | Certainty | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the certainty value of the vulnerability. Should be a number between 0 and 100. *(Read-only)* |
 | Confirmed | [```Boolean```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | Gets whether this vulnerability is a possible finding or a confirmed finding. *(Read-only)* |
-| CustomFields | Dictionary | Gets a dictionary of Custom Fields. |
+| CustomFields | Dictionary | Gets a dictionary of Custom Fields. |
 | Id | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the unique GUID value of the vulnerability. *(Read-only)* |
 | Type | ```VulnerabilityType``` | Gets the built-in ```VulnerabilityType``` value of this vulnerability. *(Read-only)* |
 
