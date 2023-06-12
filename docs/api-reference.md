@@ -332,7 +332,7 @@ You can use following logging methods to perform diagnosis on your custom script
 
 ### log
 
-The log function logs a message to scan log file (nstrace.csv). The log message severity is Information. So, in order to be able to see this message in the log file, set logging options to Information level.
+The ```log``` function logs a message to scan log file (nstrace.csv). The log message severity is Information. So, in order to be able to see this message in the log file, set logging options to Information level.
 
 ```js
 log('Performing the HTTP request.');
@@ -340,22 +340,44 @@ log('Performing the HTTP request.');
 
 ### logInfo
 
-The logInfo function logs a message to scan log file (nstrace.csv). The log message severity is Information. So, in order to be able to see this message in the log file, set logging options to Information level.
+The ```logInfo``` function logs a message to scan log file (nstrace.csv). The log message severity is Information. So, in order to be able to see this message in the log file, set logging options to Information level.
 
 ```js
 logInfo('Performing the HTTP request.');
 ```
 
 ### logWarn
-This logWarn function logs a message to scan log file (nstrace.csv). The log message severity is Warning. So, in order to be able to see this message in the log file, set logging options to Warning level.
+The ```logWarn``` function logs a message to scan log file (nstrace.csv). The log message severity is Warning. So, in order to be able to see this message in the log file, set logging options to Warning level.
 
 ```js
 logWarn('Looks like the server is taking too long to respond.');
 ```
 
 ### logError
-This logError function logs a message to scan log file (nstrace.csv). The log message severity is Error. So, in order to be able to see this message in the log file, set logging options to Error level.
+The ```logError``` function logs a message to scan log file (nstrace.csv). The log message severity is Error. So, in order to be able to see this message in the log file, set logging options to Error level.
 
 ```js
 logError('An unexpected error has occurred.');
 ```
+### logUi
+The ```logUI``` function logs a message to the Logs panel in Invicti Standard.
+
+```js
+logUI('Hello World!');
+```
+
+The logs are written to the scan trace file (```nstrace.csv```). This file can be found in:
+
+* Invicti Standard: The scan folder under Documents directory.
+* Invicti Enterprise: The scan data file that can be downloaded from the report page using "Download Scan Data" button.
+
+The following table shows which logging function is available on which product editions:
+
+
+|      | Invicti Enterprise | Invicti Standard |
+|------|:------------------:|:----------------:|
+| ```log``` | X | X |
+| ```logInfo``` | X | X |
+| ```logWarn``` | X | X |
+| ```logError``` | X | X |
+| ```logUi``` | - | X |
