@@ -20,7 +20,7 @@ var response = invicti.request(request);
 |------|------|-------------|
 | Aborted | [```Boolean```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) | Gets a value indicating whether this Request is aborted. *(Read-only)* |
 | Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the body of the HTTP request. |
-| Headers | Dictionary | Gets a dictionary of HTTP request headers where you can add/update headers. |
+| Headers | Dictionary | Gets a dictionary of HTTP request headers where you can add/update headers. Lookup is performed in a case sensitive way. |
 | Method | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the HTTP method (verb) used in the request (e.g. GET, POST, PUT, DELETE). |
 | Parameters | List | Gets a list of ```Parameter``` instances which are sent as part of the request. (e.g. Querystring, Post) |
 | Uri |[```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the URI to perform the request to. |
@@ -65,7 +65,7 @@ This represents an HTTP response. You can use the class to retrieve the response
 | Name | Type | Description |
 |------|------|-------------|
 | Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the body of the HTTP response. *(Read-only)* |
-| Headers | Dictionary | Gets a dictionary of HTTP response headers. |
+| Headers | Dictionary | Gets a dictionary of HTTP response headers. Lookup is performed in a case sensitive way. |
 | RawResponse | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the raw HTTP response which consists of headers and body. *(Read-only)* |
 | ResponseTime | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the elapsed response time in milliseconds. *(Read-only)* |
 | StatusCode | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the HTTP response status code. (e.g. 200, 404) *(Read-only)* |
