@@ -38,17 +38,29 @@ Aborts the request.
 ### How to perform a POST request
 
 ```js
-var request = new Request('https://example.com/action');
-request.Parameters.Add(new Parameter('foo', 'bar', ParameterType.Post));
-var response = invicti.request(request);
+var req = new Request('https://example.com/action');
+req.Parameters.Add(new Parameter('foo', 'bar', ParameterType.Post));
+var res = invicti.request(req);
 ```
 
 ### How to add custom request headers to a request
 
 ```js
-var request = new Request('https://example.com/');
-request.Headers.Add('X-CustomHeader', 'test');
-var response = invicti.request(request);
+var req = new Request('https://example.com/');
+req.Headers.Add('X-CustomHeader', 'test');
+var res = invicti.request(req);
+```
+
+### How to send a POST request with a JSON payload
+
+```js
+var req = new Request('https://example.com/');
+
+req.Headers.Add('Content-Type', 'application/json');
+req.Method = 'POST';
+req.Body = '{ "foo" : { "bar" : 42 } }';
+
+var res = invicti.request(req);
 ```
 
 ---
@@ -71,6 +83,21 @@ This represents an HTTP response. You can use the class to retrieve the response
 | StatusCode | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the HTTP response status code. (e.g. 200, 404) *(Read-only)* |
 | StatusDescription |[```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the HTTP response status description. (e.g. "OK", "Not Found") *(Read-only)* |
 | Uri | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the address that request is made to. *(Read-only)* |
+
+### How to conditionally raise a new vulnerability by matching a regex pattern on response body
+
+```js
+var req = new Request('https://example.com/');
+    
+var res = invicti.request(req);
+
+var regex = /java.io.FileNotFoundException/g;
+var found = res.Body.match(regex);
+
+if (found.length > 0) {
+   return new Vulnerability(VulnerabilityType.ProgrammingErrorMessages);
+}
+```
 
 ---
 
