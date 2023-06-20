@@ -12,12 +12,13 @@ var attacks = [
     }
 ];
 
-function analyze(context, response) {
+function analyze(context, response)
+{
 	// The aim of this script is to discover Fake Wordpress Super Socialat Plugin Backdoor the Wordpress web applicatons.
 	// Research: https://www.getastra.com/blog/911/fake-super-socializer-plugins/
 	// Exploit: https://twitter.com/chybeta/status/1196250816476139520
-	if(response.Body.indexOf("N3t5p4rk3r") > -1) {
-		 return new Vulnerability("eb230084-3afa-4bf0-ad05-b6a2cbb331b0");		 
-		 
-	 }    
+	if (response.Body.indexOf("N3t5p4rk3r") > -1)
+	{
+		return new Vulnerability("eb230084-3afa-4bf0-ad05-b6a2cbb331b0");
+	}
 }
