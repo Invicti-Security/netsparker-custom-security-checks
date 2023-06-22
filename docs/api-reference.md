@@ -390,7 +390,7 @@ The ```logError``` function logs a message to scan log file (nstrace.csv). The l
 logError('An unexpected error has occurred.');
 ```
 ### logUI
-The ```logUI``` function logs a message to the **Logs** panel in Invicti Standard.
+The ```logUI``` function logs a message to the **Logs** panel in Invicti Standard. This method can be used to interactively trace a script execution while performing scans with Invicti Standard. The function adds a log record to UI both during scanning and also when you click the **Execute** button on **Custom Scripts** panel.
 
 ```js
 logUI('Hello World!');
