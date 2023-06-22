@@ -4,6 +4,9 @@
 
 This represents an HTTP request. You can use this class to send HTTP requests to a web server and retrieve the responses.
 
+> **Note**
+> An HTTP request for each attack pattern specified in the script's ```attacks``` array has already been carried out by the scanner by the time the code in the ```analyze``` function runs. Use the ```Request``` class to perform any **extra** requests that you need to perform before raising a vulnerability (if required). Please see the overview documentation for each type of security checks.
+
 ### Create a Request Instance
 
 The following example shows how to create a new instance of a ```Request``` class and use it:
@@ -386,12 +389,16 @@ The ```logError``` function logs a message to scan log file (nstrace.csv). The l
 ```js
 logError('An unexpected error has occurred.');
 ```
-### logUi
-The ```logUI``` function logs a message to the Logs panel in Invicti Standard.
+### logUI
+The ```logUI``` function logs a message to the **Logs** panel in Invicti Standard.
 
 ```js
 logUI('Hello World!');
 ```
+
+When the above code executes, you can see the following log added to the **Logs** on UI.
+
+![logUI output](logUI-screenshot.png)
 
 The logs are written to the scan trace file (```nstrace.csv```). This file can be found in:
 
@@ -407,4 +414,4 @@ The following table shows which logging function is available on which product e
 | ```logInfo``` | X | X |
 | ```logWarn``` | X | X |
 | ```logError``` | X | X |
-| ```logUi``` | - | X |
+| ```logUI``` | - | X |
