@@ -210,7 +210,7 @@ Creates a vulnerability with a custom vulnerability type, the certainty percenta
 ```js
 function analyze(context, response) {
    if (response.Body.indexOf('java.io.FileNotFoundException:') > -1) {
-     return new Vulnerability('b7ead310-597c-4f96-baee-813bdda46794');
+     return new Vulnerability('b7ead310-597c-4f96-baee-813bdda46794', 100, true);
    }
 }
 ```
