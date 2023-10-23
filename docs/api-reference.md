@@ -79,7 +79,7 @@ This represents an HTTP response. You can use the class to retrieve the response
 
 | Name | Type | Description |
 |------|------|-------------|
-| Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets or sets the body of the HTTP response. *(Read-only)* |
+| Body | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the body of the HTTP response. *(Read-only)* |
 | Headers | Dictionary | Gets a dictionary of HTTP response headers. Lookup is performed in a case sensitive way. |
 | RawResponse | [```String```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | Gets the raw HTTP response which consists of headers and body. *(Read-only)* |
 | ResponseTime | [```Number```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Gets the elapsed response time in milliseconds. *(Read-only)* |
